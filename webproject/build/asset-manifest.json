@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.065e1dfc.css",
+    "main.js": "/static/js/main.c7056656.js",
+    "static/js/453.dae228d2.chunk.js": "/static/js/453.dae228d2.chunk.js",
+    "static/media/homesell.png": "/static/media/homesell.1efe69dc872cc9760663.png",
+    "static/media/financing.png": "/static/media/financing.d439be962cb8c25017b8.png",
+    "static/media/trusted.png": "/static/media/trusted.5c769a3f4c9c3782b8a4.png",
+    "static/media/wide.png": "/static/media/wide.1425933e5ae26b409a36.png",
+    "static/media/homesearch.png": "/static/media/homesearch.00ccae404fb5c67c6c9e.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.065e1dfc.css.map": "/static/css/main.065e1dfc.css.map",
+    "main.c7056656.js.map": "/static/js/main.c7056656.js.map",
+    "453.dae228d2.chunk.js.map": "/static/js/453.dae228d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.065e1dfc.css",
+    "static/js/main.c7056656.js"
+  ]
+}
