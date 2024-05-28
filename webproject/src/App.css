@@ -214,8 +214,71 @@ align-items: center;
 height: 100%;
 color: white;
 }
+.threebuttonparent{
+  margin-top: 70px;
+  background-color: rgba(38,42,52,255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height:50px;
+}
+.threebuttons{
+  background-color: transparent;
+  color:white;
+  text-align: center;
+  width:100%;
+  height:100%;
+  margin:0;
+  border:0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.threebuttonparent .threebuttons:hover {
+  color:rgba(67, 195, 112, 1);
+  background-color: rgba(48, 52, 65, 0.9);
+}
+.searchdiv{
+  background-color: rgba(48, 52, 65, 0.9);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 150px
+}
+.searchbar{
+  height: 46px;
+  border-radius: 0;
+  box-shadow: none;
+  border: 2px solid #f0f0f0;
+  font-weight: 400;
+  font-size: 15px;
+  width: 80%;
+}
+.searchbar input{
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.searchbutton{
+  background-color: rgb(35, 77, 212);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  height:46px;
+}
+.searchbutton:hover{
+  transition: all 300ms ease;
+  background-color: #61CE70;
+}
 .containers{
-  
 padding: 54px 0px 50px 0px;
 display: flex;
 flex-direction: column;
@@ -692,6 +755,10 @@ width: 110px;
   border-left: 2px solid rgb(255, 255, 255);
   height: 15px;
   margin: 0px 10px 0px 10px;
+}
+.vl2{
+  border-left: 2px solid rgb(255, 255, 255);
+  height: 15px;
 }
 .footer{
   color: white;

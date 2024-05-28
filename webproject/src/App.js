@@ -330,6 +330,23 @@ const App = () => {
                 Find Your Perfect Home
               </h1>
             </div>
+            <div className="threebuttonparent">
+                <button className="threebuttons">Buy</button>
+                <div class="vl2"></div>
+                <button className="threebuttons">Rent</button>
+                <div class="vl2"></div>
+                <button className="threebuttons">Sell</button>
+              </div>
+              <div className="searchdiv">
+                  <div className="searchbar">
+                    <input
+                      type="text"
+                      placeholder="Search for a Property"
+                      className="searchinput"
+                    />
+                  </div>
+                  <button className="searchbutton">Search</button>
+              </div>
           </div>
         </div>
       </div>
