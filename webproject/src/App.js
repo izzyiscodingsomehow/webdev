@@ -16,8 +16,23 @@ const App = () => {
   const [construction, setConstruction] = useState("");
   const [rate, setRate] = useState("");
   const [imagelink, setImageLink] = useState("");
-
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
   const recCollectionRef = collection(db, "Featured");
+  const recCollectionRef2 = collection(db, "Users");
+  const adduser = async () => {
+    if(fullname !== "" && email !== ""){
+    await addDoc(recCollectionRef2, {
+      fullname: fullname,
+      email: email,
+    });
+    alert("User has been added to the Database");
+    setFullname("");
+    setEmail("");
+  } else {
+    alert("Please fill all the fields");
+  }
+  } 
   const createListing = async () => {
     if(name !== "" && type !== "" && area !== "" && rooms !== "" && construction !== "" && rate !== "" && imagelink !== ""){
     await addDoc(recCollectionRef, {
@@ -407,8 +422,8 @@ const App = () => {
       </div>
       <div className="containers">
         <div className="containerTitle2">
-          <h1>Recent Properties for Sold</h1>
-          <p className="subtext">All Properties for Sold</p>
+          <h1>Recent Properties for Sale</h1>
+          <p className="subtext">All Properties for Sale</p>
         </div>
         <div className="cities">
           {sale &&
@@ -676,7 +691,10 @@ const App = () => {
             </ul>
           </div>
           <div className="linkscolumn">
-            <h2>Subscribe</h2>
+            <h3>Subscribe</h3>
+            <input type="text" placeholder="Enter Your Full Name" className="newsletter" value={fullname} onChange={(e) => setFullname(e.target.value)}/>
+            <input type="text" placeholder="Enter Your Email" className="newsletter" value={email} onChange={(e) => setEmail(e.target.value)}/>
+            <button className="newsletterbutton" onClick={() => adduser()}>SUBSCRIBE</button>
           </div>
         </div>
         <div className="horizontallinks">

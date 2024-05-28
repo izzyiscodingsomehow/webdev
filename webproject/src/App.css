@@ -631,6 +631,11 @@ width: 110px;
   font-weight: 600;
   margin: 0px 0px 25px 0px;
 }
+.linkscolumn h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+}
 .linkscolumn li{
   list-style-type: none;
   font-size: 13px;
@@ -644,6 +649,25 @@ width: 110px;
 }
 .linkscolumn a:hover{
   text-decoration:underline;
+}
+.newsletter{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  box-sizing: border-box;
+  color: white;
+}
+.newsletterbutton{
+  background-color: rgb(35, 77, 212);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
 }
 .horizontallinks{
   
